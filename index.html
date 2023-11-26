@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <title>BMI</title>
+</head>
+<body>
+    <h2> calculate your BMI</h2>
+    <div class="container">
+        <div>
+            <input class="weight-input" type="range" max="200" min="20" value="20">
+            <span class="span-info" id="weight">20 kg</span>
+        </div>
+        <div>
+            <input class="height-input" type="range" max="250" min="100" value="100">
+            <span class="span-info" id="height">100 cm</span>
+        </div>
+        <p class="result-text" id="bmi-num">20.0</p>
+        <p class="result-text" id="bmi-status">Normal</p>
+    </div> 
+    
+    <script src="index.js"></script>
+</body>
+</html>
